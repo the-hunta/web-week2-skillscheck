@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box
+    }
+
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    header{
+        height: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        background: rgb(133, 127, 127);
+        color: white;
+        margin: 0;
+    }
+
+    nav > a{
+        text-decoration: none;
+        color: white;
+        padding: 30px;
+
+    }
+
+    .container{
+        background:black;
+        height: 50vh;
+        
+    } 
+
+    .container > h1{
+        color: yellow;
+        position: relative;
+        left:320px;
+        top:130px;
+        font-size: 50pt;
+        font-weight: 700;
+    }
+
+    .outer-div{
+        background: none;
+        height: 320px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+
+        
+    }
+
+    .inner-div{
+        background: rgb(119, 245, 207);
+        height: 270px; 
+        width: 270px;
+        border-radius: 30px;
+        margin: auto;
+    
+    }
+    
+    .outerDIV{
+        background: none;
+        height: 340px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+
+
+
+    }
+
+    .innerDIV{
+        background: rgb(255, 164, 78);
+        height: 265px; 
+        width: 510px;
+        margin: auto;
+    }
+
+
+    .bottom-of-screen{
+        background: none;
+        width: 100%;
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 110px;
+    }
+
+    .text{
+        background:none;
+        width: 450px;
+        height: 140px;
+      
+       
+    }
+
+    p{
+        position: relative;
+        bottom: 40px;
+    }
+
+    img{
+        width: 330px;
+        height: 210px;
+        position: relative;
+        right: 50px;
+        bottom: 12px;
+        
+
+    }
+
+
+    footer{
+        background: rgb(57, 55, 90);
+        height: 100px;
+        bottom: 0;
+        width: 100%;
+
+    } 
